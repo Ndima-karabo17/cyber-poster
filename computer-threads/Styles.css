@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   background-image: url(media/security.webp);
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    color: rgb(6, 5, 5);
+}
+header {
+    background-color: #010111;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+.image-threats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.image-threats figure {
+    width: 250px;
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+main h1, main h2, main h3 {
+    text-align: center;
+    color: #c4cebf;
+    margin-top: 30px;
+}
+.image-threats img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-threats figcaption {
+    margin-top: 10px;
+    font-size: 0.95em;
+    color: #333;
+}
+.list-threats {
+    background-color: #18171e;
+    padding: 20px 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 30px auto;
+   color: white;
+    
+}
+.paragraph {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.7;
+    font-size: 1rem;
+    text-align: justify;
+}
+.list-threats li:hover {
+    background-color: #35354d;
+}
+.first{
+    text-align: center;
+}
